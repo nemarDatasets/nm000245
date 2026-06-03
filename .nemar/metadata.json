@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Hohyun Cho": {},
+    "Minkyu Ahn": {},
+    "Sangtae Ahn": {},
+    "Moonyoung Kwon": {},
+    "Sung Chan Jun": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5524/100295",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1093/gigascience/gix034",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000245",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000245",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "GIST Research Institute (GRI) grant funded by the GIST in 2017"
+    },
+    {
+      "funder_name": "GIST Research Institute",
+      "award_title": "GRI grant"
+    },
+    {
+      "funder_name": "Institute for Information & Communication Technology Promotion",
+      "award_number": "2017-0-00451"
+    }
+  ],
+  "title": "Motor Imagery dataset from Cho et al 2017",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "7.2 GB (53 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A motor imagery brain-computer interface dataset comprising EEG recordings from 52 healthy subjects performing kinesthetic imagery of left and right hand finger movements. The dataset includes 100-120 trials per class with concurrent EMG recordings, psychological and physiological questionnaires, 3D electrode coordinates, and non-task-related control states. Mean classification accuracy of 67.46% (±13.17%) was achieved using CSP feature extraction and FLDA classification, with 76% of subjects demonstrating discriminative motor imagery patterns.",
+  "methods_description": "EEG data were acquired at 512 Hz using a Biosemi ActiveTwo system with 64 active electrodes in standard 10-05 montage plus 4 EMG channels. Subjects performed kinesthetic motor imagery of left and right hand finger movements during 3-second cued trials, with 5-6 runs per session containing 100-120 trials per class. Additional recordings included non-task-related states (eye blinking, eyeball movements, head movement, jaw clenching, resting state) and real hand movement trials. 3D electrode coordinates were digitized using Polhemus Fastrak. Data were acquired in August-September 2011 using BCI2000 3.0.2 software with CMS/DRL reference and 60 Hz line frequency.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "event-related desynchronization"
+    },
+    {
+      "term": "common spatial patterns"
+    },
+    {
+      "term": "kinesthetic imagery"
+    },
+    {
+      "term": "subject-to-subject transfer"
+    }
+  ],
+  "source_hash": "4bfb40d5b7f206bdbd7ddb59aeaa4193c29bf1aa42247e8b5c2d16da40de1bec"
+}
