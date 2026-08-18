@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Imagery dataset from Cho et al 2017",
-  "description": "A motor imagery brain-computer interface dataset comprising EEG recordings from 52 healthy subjects performing kinesthetic imagery of left and right hand finger movements. The dataset includes 100-120 trials per class with concurrent EMG recordings, psychological and physiological questionnaires, 3D electrode coordinates, and non-task-related control states. Mean classification accuracy of 67.46% (±13.17%) demonstrates substantial inter-subject variability in motor imagery performance.",
-  "methods_description": "EEG data were acquired at 512 Hz using a Biosemi ActiveTwo system with 64 active electrodes in standard 1005 montage plus 4 EMG channels. Subjects performed kinesthetic motor imagery of left and right hand finger movements during 3-second cued trials. Each session consisted of 5-6 runs with 100-120 trials per class. Additional data included non-task-related states (eye blinking, eyeball movements, head movement, jaw clenching, resting state) and real hand movement trials. 3D electrode coordinates were measured using Polhemus Fastrak digitizer.",
+  "description": "A motor imagery brain-computer interface dataset comprising EEG recordings from 52 healthy subjects performing kinesthetic imagery of left and right hand finger movements. The dataset includes 100-120 trials per class with concurrent EMG recordings, psychological and physiological questionnaires, 3D electrode coordinates, and non-task-related control states. Mean classification accuracy of 67.46% (±13.17%) demonstrates substantial inter-subject variability in motor imagery discriminability.",
+  "methods_description": "EEG data were acquired at 512 Hz using a Biosemi ActiveTwo system with 64 active electrodes in standard 10-05 montage plus 4 EMG channels. Subjects performed kinesthetic motor imagery of left and right hand finger movements during 3-second cued trials across 5-6 runs. Additional data included non-task-related states (eye blinking, eyeball movements, head movement, jaw clenching, resting state) and real hand movement trials. 3D electrode coordinates were measured using Polhemus Fastrak digitizer. Experiments were conducted in four time slots with controlled background noise levels (37-39 dB).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,13 +27,10 @@
       "term": "motor control"
     },
     {
-      "term": "kinesthetic imagery"
-    },
-    {
       "term": "event-related desynchronization"
     },
     {
-      "term": "common spatial patterns"
+      "term": "subject-to-subject transfer"
     }
   ],
   "related_identifiers": [
@@ -74,7 +71,7 @@
     },
     {
       "funder_name": "GIST Research Institute",
-      "award_title": "GRI grant"
+      "award_title": "GIST Research Institute (GRI) grant"
     },
     {
       "funder_name": "Institute for Information & Communication Technology Promotion",
@@ -99,5 +96,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "8de508ddfd2ded8cfe75c90698f254aa05f8f31f925af45bbe64564338ab64e7"
+  "source_hash": "01b6f3c9f0c92891223671bb351de28b216b6c929656e9e03674d6c4334dc124"
 }
